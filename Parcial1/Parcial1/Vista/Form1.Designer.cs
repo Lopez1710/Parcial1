@@ -29,14 +29,14 @@ namespace Parcial1
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.TxtEmpleado = new System.Windows.Forms.TextBox();
+            this.TxtDUI = new System.Windows.Forms.TextBox();
+            this.TxtEmail = new System.Windows.Forms.TextBox();
+            this.TxtNombre = new System.Windows.Forms.TextBox();
+            this.TxtDireccion = new System.Windows.Forms.TextBox();
+            this.TxtCargp = new System.Windows.Forms.TextBox();
+            this.TxtApellido = new System.Windows.Forms.TextBox();
+            this.TxtTel = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,66 +46,74 @@ namespace Parcial1
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.DtgEmpleados = new System.Windows.Forms.DataGridView();
+            this.BtnEliminar = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.DtgEmpleados)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // TxtEmpleado
             // 
-            this.textBox1.Location = new System.Drawing.Point(55, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.TxtEmpleado.Location = new System.Drawing.Point(55, 63);
+            this.TxtEmpleado.Name = "TxtEmpleado";
+            this.TxtEmpleado.Size = new System.Drawing.Size(100, 20);
+            this.TxtEmpleado.TabIndex = 0;
             // 
-            // textBox2
+            // TxtDUI
             // 
-            this.textBox2.Location = new System.Drawing.Point(280, 63);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.TxtDUI.Location = new System.Drawing.Point(280, 63);
+            this.TxtDUI.Name = "TxtDUI";
+            this.TxtDUI.Size = new System.Drawing.Size(100, 20);
+            this.TxtDUI.TabIndex = 1;
             // 
-            // textBox3
+            // TxtEmail
             // 
-            this.textBox3.Location = new System.Drawing.Point(487, 63);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 2;
+            this.TxtEmail.Location = new System.Drawing.Point(487, 63);
+            this.TxtEmail.Name = "TxtEmail";
+            this.TxtEmail.Size = new System.Drawing.Size(100, 20);
+            this.TxtEmail.TabIndex = 2;
             // 
-            // textBox4
+            // TxtNombre
             // 
-            this.textBox4.Location = new System.Drawing.Point(55, 129);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 3;
+            this.TxtNombre.Location = new System.Drawing.Point(55, 129);
+            this.TxtNombre.Name = "TxtNombre";
+            this.TxtNombre.Size = new System.Drawing.Size(100, 20);
+            this.TxtNombre.TabIndex = 3;
             // 
-            // textBox5
+            // TxtDireccion
             // 
-            this.textBox5.Location = new System.Drawing.Point(280, 129);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 4;
+            this.TxtDireccion.Location = new System.Drawing.Point(280, 129);
+            this.TxtDireccion.Name = "TxtDireccion";
+            this.TxtDireccion.Size = new System.Drawing.Size(100, 20);
+            this.TxtDireccion.TabIndex = 4;
             // 
-            // textBox6
+            // TxtCargp
             // 
-            this.textBox6.Location = new System.Drawing.Point(487, 129);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 5;
+            this.TxtCargp.Location = new System.Drawing.Point(487, 129);
+            this.TxtCargp.Name = "TxtCargp";
+            this.TxtCargp.Size = new System.Drawing.Size(100, 20);
+            this.TxtCargp.TabIndex = 5;
             // 
-            // textBox7
+            // TxtApellido
             // 
-            this.textBox7.Location = new System.Drawing.Point(55, 217);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 6;
+            this.TxtApellido.Location = new System.Drawing.Point(55, 217);
+            this.TxtApellido.Name = "TxtApellido";
+            this.TxtApellido.Size = new System.Drawing.Size(100, 20);
+            this.TxtApellido.TabIndex = 6;
             // 
-            // textBox8
+            // TxtTel
             // 
-            this.textBox8.Location = new System.Drawing.Point(280, 217);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 7;
+            this.TxtTel.Location = new System.Drawing.Point(280, 217);
+            this.TxtTel.Name = "TxtTel";
+            this.TxtTel.Size = new System.Drawing.Size(100, 20);
+            this.TxtTel.TabIndex = 7;
             // 
             // label1
             // 
@@ -188,30 +196,80 @@ namespace Parcial1
             this.label9.Size = new System.Drawing.Size(0, 13);
             this.label9.TabIndex = 17;
             // 
-            // dataGridView1
+            // DtgEmpleados
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 328);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(620, 150);
-            this.dataGridView1.TabIndex = 18;
+            this.DtgEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DtgEmpleados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column7,
+            this.Column8});
+            this.DtgEmpleados.Location = new System.Drawing.Point(40, 328);
+            this.DtgEmpleados.Name = "DtgEmpleados";
+            this.DtgEmpleados.Size = new System.Drawing.Size(620, 150);
+            this.DtgEmpleados.TabIndex = 18;
             // 
-            // button1
+            // BtnEliminar
             // 
-            this.button1.Location = new System.Drawing.Point(40, 281);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnEliminar.Location = new System.Drawing.Point(40, 281);
+            this.BtnEliminar.Name = "BtnEliminar";
+            this.BtnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.BtnEliminar.TabIndex = 19;
+            this.BtnEliminar.Text = "Eliminar";
+            this.BtnEliminar.UseVisualStyleBackColor = true;
+            this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Id";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Nombre";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Apellido";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "DUI";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Direccion";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Tel";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Email";
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Cargo";
+            this.Column8.Name = "Column8";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(745, 490);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.BtnEliminar);
+            this.Controls.Add(this.DtgEmpleados);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -221,17 +279,18 @@ namespace Parcial1
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtTel);
+            this.Controls.Add(this.TxtApellido);
+            this.Controls.Add(this.TxtCargp);
+            this.Controls.Add(this.TxtDireccion);
+            this.Controls.Add(this.TxtNombre);
+            this.Controls.Add(this.TxtEmail);
+            this.Controls.Add(this.TxtDUI);
+            this.Controls.Add(this.TxtEmpleado);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.DtgEmpleados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -239,14 +298,14 @@ namespace Parcial1
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox TxtEmpleado;
+        private System.Windows.Forms.TextBox TxtDUI;
+        private System.Windows.Forms.TextBox TxtEmail;
+        private System.Windows.Forms.TextBox TxtNombre;
+        private System.Windows.Forms.TextBox TxtDireccion;
+        private System.Windows.Forms.TextBox TxtCargp;
+        private System.Windows.Forms.TextBox TxtApellido;
+        private System.Windows.Forms.TextBox TxtTel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -256,8 +315,16 @@ namespace Parcial1
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView DtgEmpleados;
+        private System.Windows.Forms.Button BtnEliminar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
     }
 }
 
