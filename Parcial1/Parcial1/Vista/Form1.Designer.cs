@@ -61,6 +61,7 @@ namespace Parcial1
             // 
             // TxtEmpleado
             // 
+            this.TxtEmpleado.Enabled = false;
             this.TxtEmpleado.Location = new System.Drawing.Point(55, 63);
             this.TxtEmpleado.Name = "TxtEmpleado";
             this.TxtEmpleado.Size = new System.Drawing.Size(100, 20);
@@ -212,6 +213,7 @@ namespace Parcial1
             this.DtgEmpleados.Name = "DtgEmpleados";
             this.DtgEmpleados.Size = new System.Drawing.Size(620, 150);
             this.DtgEmpleados.TabIndex = 18;
+            this.DtgEmpleados.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgEmpleados_CellClick);
             // 
             // BtnEliminar
             // 
