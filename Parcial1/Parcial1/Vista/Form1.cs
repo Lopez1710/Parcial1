@@ -32,7 +32,7 @@ namespace Parcial1
         }
         void carga()
         {
-
+            DtgEmpleados.Rows.Clear();
             ClsEmpleadoD clsDUser = new ClsEmpleadoD();
             List<Tbl_empleado> lista = clsDUser.cargardatosUserLis();
 
